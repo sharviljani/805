@@ -44,7 +44,7 @@ def filter_0_items(inventory):
 	"""
 	Removes items that have a value of 0 from a dictionary of inventories
 	inventory: dictionary with:
-    key: tring that is the name of the inventory item
+    key: string that is the name of the inventory item
     value: nteger that equals the number of that item currently on hand
 	Returns: the same inventory_dict with any item that had 0 quantity removed
 	""" 
