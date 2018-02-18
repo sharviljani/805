@@ -1,10 +1,11 @@
 # Resume Url Configuration
-from django.conf.urls import url
+from django.urls import path
+from django.contrib import admin
 
 from . import views
 
-app_name = "resume"
+app_name = 'resume'
 
 urlpatterns = [
-	url(r'^$', views.home, name='home'),
+	path('resume/', views.home, name='home'),
 ]
