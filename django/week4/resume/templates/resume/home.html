@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block content %}
+	<h1><div class="page-heading"> Sharvil Jani </div></h1>
+
+		<ul>
+
+			<h2 class="head">Education</h2>
+
+		{% for Education in resume.get_education %}
+			<div class="line-heading">Institution_Name: </div>{{ Education.institution_name }} <br />
+			<div class="line-heading">Location: </div>{{ Education.location}} <br />
+			<div class="line-heading">Degree: </div>{{ Education.degree}} <br />
+			<div class="line-heading">Major: </div>{{ Education.major}} <br />
+			<div class="line-heading">GPA: </div>{{ Education.gpa}} <br />
+		{% endfor %}
+
+		</ul>
+
+		<ul>
+			<h2 class="head">Experience</h2>
+
+		{% for Experience in resume.get_experience %}
+			<div class="line-heading">Title: </div>{{ Experience.title }} <br />
+			<div class="line-heading">Location: </div>{{ Experience.location}} <br />
+			<div class="line-heading">Start_date: </div>{{ Experience.start_date }} <br />
+			<div class="line-heading">End_date: </div>{{ Experience.end_date }} <br />
+			<div class="line-heading">Description: </div>{{ Experience.description }} <br />
+		{% endfor %}
+
+		</ul>
+{% endblock %}

@@ -1,0 +1,49 @@
+
+nav {
+	background: #A9A9A9;
+	padding: 5px;
+	border-radius: 5px;
+	text-align: right;
+
+}
+
+nav a {
+	color: black;
+	text-decoration: none;
+	font-size: 1.25em;
+	padding: 5px;
+}
+
+.homepage-content{
+	width: 80%;
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+.homepage-banner{
+	text-align: center;
+	color: #708090;
+	font-size: 2em;
+	max-width: 100%;
+}
+
+.img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+.button{
+	background-color: #A9A9A9;
+	border: none;
+	border-radius: 10px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+
+}
+
+
+
+
+
